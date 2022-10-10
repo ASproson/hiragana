@@ -1,5 +1,5 @@
 import "./App.css";
-import StudyGuide from "./components/StudyGuide";
+import { Link } from "react-router-dom";
 
 // ref link https://www.lexilogos.com/keyboard/hiragana.htm
 
@@ -14,7 +14,7 @@ function App() {
         </p>
         <p> So please be patient and raise an issue on GitHub for any fixes</p>
       </div>
-      <StudyGuide />
+      <Link to="/studyguide">Study Guide</Link>
     </div>
   );
 }
