@@ -56,3 +56,8 @@ const StudyGuide = () => {
 };
 
 export default StudyGuide;
+
+
+// Click a set to study [vowels] [consonants: [k, s, t, n, h, m, y, r, w]], show with their dakuten counterpart
+// List hiragana with english spelling beneath by default, give option to 'show' pronunciation guide
+// ^store this option in state so that it doesn't have to be clicked for each one
