@@ -8,19 +8,17 @@ const data = [
   { id: 4, hiragana: "お", eng: "o", sound: "oh" },
 ];
 
-const s = "あ";
-
 function App() {
   return (
     <div className="flex justify-center">
       <div>
         <h1 className="text-3xl mt-10 mb-10">Let's Learn Hiragana!</h1>
-        <div className="text-center text-3xl">
+        <div className="text-center text-3xl flex justify-center">
           {data.map((val) => {
             return (
-              <div>
-                <span className="mr-4">{val.eng}</span>
-                <span>{val.hiragana}</span>
+              <div key={val.id} className='mr-4'>
+                <p>{val.eng}</p>
+                <p className='mt-2'>{val.hiragana}</p>
               </div>
             );
           })}
