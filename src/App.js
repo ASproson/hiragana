@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <div className="text-center">
-      <h1 className="text-3xl mt-10 mb-4">Let's Learn Hiragana!</h1>
-      <div className="mb-10">
+      <h1 className="text-3xl pb-4 pt-10">Let's Learn Hiragana!</h1>
+      <div className="pb-10">
         <p>
           This is resource I am building to practice Hiragana, there are very
           likely mistakes!
