@@ -8,6 +8,8 @@ const data = [
   { id: 4, hiragana: "お", eng: "o", sound: "oh" },
 ];
 
+// ref link https://www.lexilogos.com/keyboard/hiragana.htm
+
 function App() {
   return (
     <div className="flex justify-center">
@@ -18,6 +20,7 @@ function App() {
             return (
               <div key={val.id} className='mr-4'>
                 <p>{val.eng}</p>
+                <p>{val.sound}</p>
                 <p className='mt-2'>{val.hiragana}</p>
               </div>
             );
