@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/hiragana/static/css/main.c9e83ee2.css",
-    "main.js": "/hiragana/static/js/main.01465a89.js",
+    "main.js": "/hiragana/static/js/main.bc2be83c.js",
     "index.html": "/hiragana/index.html",
     "main.c9e83ee2.css.map": "/hiragana/static/css/main.c9e83ee2.css.map",
-    "main.01465a89.js.map": "/hiragana/static/js/main.01465a89.js.map"
+    "main.bc2be83c.js.map": "/hiragana/static/js/main.bc2be83c.js.map"
   },
   "entrypoints": [
     "static/css/main.c9e83ee2.css",
-    "static/js/main.01465a89.js"
+    "static/js/main.bc2be83c.js"
   ]
 }
