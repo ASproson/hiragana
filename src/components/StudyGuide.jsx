@@ -26,17 +26,20 @@ const StudyGuide = () => {
         <h1 className="text-3xl pt-10">Study Guide</h1>
         <p className="p-4">Click each vowel/consonant set to study them</p>
       </div>
-      {/* <div className="text-center text-3xl flex justify-center">
-        {hVowels.map((val) => {
+
+      <div className="text-center font-bold text-xl">
+        {data.map((d) => {
           return (
-            <div key={val.id} className="mr-4">
-              <p>{val.eng}</p>
-              <p>{val.sound}</p>
-              <p className="mt-2">{val.hiragana}</p>
+            <div>
+              {d.set.map((val) => {
+                return (
+                  <p>{val.hiragana}</p>
+                )
+              })}
             </div>
-          );
+          )
         })}
-      </div> */}
+      </div>
     </div>
   );
 };
