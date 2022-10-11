@@ -47,13 +47,13 @@ const StudyGuide = () => {
     <div>
       <div className="text-center">
         <h1 className="text-3xl pt-10">Study Guide</h1>
-        <p className="p-4">
+        <p className="p-6 text-lg">
           Click each vowel/consonant set to study them, english is followed by
           pronunciation
         </p>
       </div>
 
-      <div className="flex space-x-6 justify-center">
+      <div className="flex space-x-6 justify-center pt-8">
         {hiraganaSet.map((hSet) => {
           return (
             <p
@@ -75,7 +75,9 @@ const StudyGuide = () => {
             <div key={set.id} className="text-center">
               <p className="pb-8 pt-4">{set.eng}</p>
               <p className="pb-12 pt-4 text-red-400">{set.sound}</p>
-              <p className="text-[70px] text-cyan-600 hover:scale-150 transition ease-in-out">{set.hiragana}</p>
+              <p className="text-[70px] text-cyan-600 hover:scale-150 transition ease-in-out">
+                {set.hiragana}
+              </p>
             </div>
           );
         })}
