@@ -1,5 +1,4 @@
 import "./App.css";
-import NavBar from "./components/NavBar";
 
 // ref link https://www.lexilogos.com/keyboard/hiragana.htm
 
