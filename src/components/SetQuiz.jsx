@@ -37,7 +37,11 @@ const SetQuiz = () => {
 
   getRandomHiragana();
 
-  return <div></div>;
+  return (
+    <div>
+      <h1 className="text-center pt-10 text-3xl">Under Construction</h1>
+    </div>
+  );
 };
 
 export default SetQuiz;
