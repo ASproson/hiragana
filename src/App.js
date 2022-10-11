@@ -12,7 +12,7 @@ function App() {
             This is resource I am building to practice Hiragana, there are very
             likely mistakes!
           </p>
-          <p>So please be patient and raise an issue on GitHub for any fixes</p>
+          <p className="pt-4">Please be patient and raise an issue on GitHub for any fixes</p>
         </div>
       </div>
     </div>
