@@ -37,7 +37,7 @@ const hiraganaSet = [
 ];
 
 const StudyGuide = () => {
-  const [showHiraganaSet, setShowHiraganaSet] = useState();
+  const [showHiraganaSet, setShowHiraganaSet] = useState(hiraganaSet[0].set);
 
   const selectHirganaSet = (setRequest) => {
     setShowHiraganaSet(setRequest);
