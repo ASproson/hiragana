@@ -75,7 +75,7 @@ const StudyGuide = () => {
             <div key={set.id} className="text-center">
               <p className="pb-8 pt-4">{set.eng}</p>
               <p className="pb-12 pt-4 text-red-400">{set.sound}</p>
-              <p className="text-[60px] text-cyan-600 hover:scale-150 transition ease-in-out">{set.hiragana}</p>
+              <p className="text-[70px] text-cyan-600 hover:scale-150 transition ease-in-out">{set.hiragana}</p>
             </div>
           );
         })}
