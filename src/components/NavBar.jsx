@@ -10,7 +10,7 @@ const links = [
 
 const NavBar = () => {
   return (
-    <div className="space-x-6 text-right pr-10">
+    <div className="space-x-6 text-right pr-6 pt-2">
       {links.map((link) => {
         return (
           <Link to={link.to} key={link.id} className='cursor-pointer hover:text-blue-500'>
