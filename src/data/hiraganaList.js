@@ -79,7 +79,7 @@ const hB = [
   { id: 4, hiragana: "ぼ", eng: "bo", sound: "boh" },
 ];
 
-const hp = [
+const hP = [
   { id: 0, hiragana: "ぱ", eng: "Pa", sound: "Pah" },
   { id: 1, hiragana: "ぴ", eng: "Pi", sound: "Pii" },
   { id: 2, hiragana: "ぷ", eng: "Pu", sound: "Puu" },
@@ -187,3 +187,5 @@ const hComplete = [
     { id: 69, hiragana: "わ", eng: "wa", sound: "wah" },
     { id: 70, hiragana: "を", eng: "wo", sound: "woh" },
 ]
+
+export {hComplete, hW, hR, hY, hM, hP, hB, hH, hN, hD, hT, hZ, hS, hG, hK, hVowels}
