@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const links = [
-  { id: 0, to: "/", text: "Home" },
+  { id: 0, to: "/hiragana", text: "Home" },
   { id: 1, to: "/studyguide", text: "Study Guide" },
   { id: 2, to: "/quiz", text: "Set Quizzes" },
   { id: 3, to: "/randomQuiz", text: "Random Quiz" },

@@ -13,7 +13,7 @@ root.render(
   <BrowserRouter>
     <NavBar />
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/hiragana" element={<App />} />
       <Route path="/studyguide" element={<StudyGuide />} />
       <Route path="/quiz" element={<SetQuiz />} />
       <Route path="/randomQuiz" element={<RandomQuiz />} />
